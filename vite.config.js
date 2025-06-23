@@ -1,3 +1,5 @@
+process.env.ROLLUP_NO_BINARY_INSTALL = '1';
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 // import tailwindcss from 'vite-plugin-tailwindcss'
